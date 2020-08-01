@@ -1,5 +1,12 @@
-# ElasticSearch-basic-tests-project
-Basic Project to test and learn some basics concepts about ElasticSearch, with Postman and docker
+# Basic Project to learn ElasticSearch
+
+## Requisites
+
+- vm.max_map_count=262144
+  - sysctl -w vm.max_map_count=262144
+- Docker
+- Docker-Compose
+- Postman
 
 ## License
 
