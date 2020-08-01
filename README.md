@@ -79,8 +79,16 @@ POST /users/_update/1
 }
 ````
 
+## Deleting indices or documents
+As using the DELETE method, to delete a document directly referring to it or an index as same method
 
-
+Example:
+````
+DELETE /users/_doc/1
+````
+````
+DELETE /users/
+````
 
 ## License
 
