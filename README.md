@@ -49,6 +49,39 @@ POST /users/_bulk
 
 ````
 
+## Override documents or updates it
+
+With PUT, we can "update" a document, but this is not true, using the PUT method we can create the document or if existed override it, caution with that.
+
+Example:
+````
+PUT /users/_doc/1
+````
+````
+{
+    "age": 60
+}
+````
+
+With the POST method we can add some data or override any invalid or incorrect saved field
+
+Example:
+````
+POST /users/_update/1
+````
+````
+{
+	"doc": {
+	    "Name": "Rick",
+	    "Surname": "Sanchez",
+	    "age": 50
+	}
+}
+````
+
+
+
+
 ## License
 
 <img src="./img/by-sa.png">
