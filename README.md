@@ -90,6 +90,37 @@ DELETE /users/_doc/1
 DELETE /users/
 ````
 
+## Data types
+
+- string
+  - text
+  - keyword
+- Numeric
+  - long
+  - integer
+  - short
+  - byte
+  - double
+  - float
+  - half_float
+  - scaled_float
+- Date
+  - date
+- Date nanoseconds
+  - date_nanos
+- Boolean
+  - boolean
+- Binary
+  - binary
+- Range
+  - integer_range
+  - float_range
+  - long_range
+  - double_range
+  - date_range
+  - ip_range
+
+
 ## License
 
 <img src="./img/by-sa.png">
